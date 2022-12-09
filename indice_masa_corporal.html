@@ -1,0 +1,75 @@
+<meta charset="UTF-8">
+
+<h1> INDICE DE MASA CORPORAL </h1>
+
+<script>
+
+	function saltarlinea(){
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+
+	}
+
+	function imprimir(frase) {
+		document.write(frase);
+		saltarlinea();
+	}
+
+	function calcularImc(peso1,altura1,nombre1,peso2,altura2,nombre2) {
+
+		imc1 = peso1 / (altura1 * altura1);
+		imc2 = peso2 / (altura2 * altura2);
+
+		
+		imprimir("El promedio del imc calculado de " + nombre1 + " y " + nombre2 + " es: " + (imc1+imc2)/ 2);
+	}
+
+
+calcularImc(61,1.58,"haydee",90,1.75,"arturo");
+
+calcularImc(59,1.56,"bianca",70,1.60,"daniel");
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
